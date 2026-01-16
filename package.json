@@ -1,0 +1,31 @@
+{
+  "name": "react-notes",
+  "version": "1.0.0",
+  "description": "Comprehensive React learning notes and examples",
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'This is a documentation repository. To run examples, copy them into a React project.'",
+    "info": "echo 'Visit the docs folder for comprehensive React notes!'"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "learning",
+    "notes",
+    "hooks",
+    "redux",
+    "router",
+    "examples",
+    "tutorial"
+  ],
+  "author": "Tejasvini Malviya",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-notes.git"
+  }
+}
