@@ -52,8 +52,8 @@ function EventHandlingExample() {
       {/* onClick with parameters */}
       <div style={{ marginBottom: "30px", padding: "15px", background: "#e8f4f8" }}>
         <h2>2. onClick with Parameters</h2>
-        <button onClick={() => greet("Tejasvini")}>Greet Tejasvini</button>
-        <button onClick={() => greet("Ashish")} style={{ marginLeft: "5px" }}>Greet Ashish</button>
+        <button onClick={() => greet("Alice")}>Greet Alice</button>
+        <button onClick={() => greet("Bob")} style={{ marginLeft: "5px" }}>Greet Bob</button>
       </div>
 
       {/* onChange */}

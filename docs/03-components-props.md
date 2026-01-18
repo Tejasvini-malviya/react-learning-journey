@@ -61,8 +61,8 @@ function Greeting(props) {
 function App() {
   return (
     <div>
-      <Greeting name="Ashish" />
-      <Greeting name="Teju" />
+      <Greeting name="Alice" />
+      <Greeting name="Bob" />
     </div>
   );
 }
@@ -72,8 +72,8 @@ export default App;
 
 **Output:**
 ```
-Hello, Ashish!
-Hello, Teju!
+Hello, Alice!
+Hello, Bob!
 ```
 
 ### Destructuring Props (Cleaner Approach)
@@ -116,7 +116,7 @@ function Profile({ name, age, city, occupation }) {
 
 // Using the component
 <Profile 
-  name="Tejasvini" 
+  name="Alex" 
   age={25} 
   city="Mumbai" 
   occupation="Developer" 
@@ -172,7 +172,7 @@ function Example() {
   return (
     <MyComponent
       // String
-      name="Tejasvini"
+      name="Alex"
       
       // Number (use curly braces)
       age={25}
@@ -184,7 +184,7 @@ function Example() {
       hobbies={['coding', 'reading', 'music']}
       
       // Object
-      user={{ name: 'Teju', role: 'Developer' }}
+      user={{ name: 'User', role: 'Developer' }}
       
       // Function
       onClick={() => alert('Clicked!')}
@@ -244,7 +244,7 @@ function Greeting({ name = "Guest" }) {
 
 // If no name is provided, it will use "Guest"
 <Greeting /> // Output: Hello, Guest!
-<Greeting name="Teju" /> // Output: Hello, Teju!
+<Greeting name="User" /> // Output: Hello, User!
 ```
 
 ## 🔄 Props Flow Diagram
@@ -252,7 +252,7 @@ function Greeting({ name = "Guest" }) {
 ```
 Parent Component (App)
     |
-    | props = { name: "Teju", age: 25 }
+    | props = { name: "User", age: 25 }
     |
     ↓
 Child Component (Profile)

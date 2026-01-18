@@ -33,19 +33,19 @@ function PropsExample() {
       <h1>Props Examples</h1>
       
       {/* Basic props */}
-      <Greeting name="Ashish" />
-      <Greeting name="Teju" />
+      <Greeting name="Alice" />
+      <Greeting name="Bob" />
       
       {/* Multiple props */}
       <UserCard 
-        name="Tejasvini Malviya" 
+        name="Jane Smith" 
         age={25} 
         city="Mumbai" 
         occupation="Developer" 
       />
       
       <UserCard 
-        name="Ashish Kumar" 
+        name="John Doe" 
         age={28} 
         city="Delhi" 
         occupation="Designer" 

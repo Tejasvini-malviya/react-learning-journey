@@ -2,10 +2,10 @@ import React from "react";
 
 // Example of basic JSX usage
 function JSXExample() {
-  const name = "Tejasvini";
+  const name = "Alex";
   const user = {
-    firstName: "Tejasvini",
-    lastName: "Malviya"
+    firstName: "Alex",
+    lastName: "Johnson"
   };
 
   return (
