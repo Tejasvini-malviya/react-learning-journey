@@ -114,8 +114,8 @@ function Greeting(props) {
 function App() {
   return (
     <div>
-      <Greeting name="Ashish" />
-      <Greeting name="Teju" />
+      <Greeting name="hlo" />
+      <Greeting name="hyy" />
     </div>
   );
 }
